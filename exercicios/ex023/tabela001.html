@@ -7,6 +7,7 @@
     <title>Tabelas</title>
     <style>
         body {
+            background-image: url(../ex022/wallpaper005.jpg);
             font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -20,6 +21,12 @@
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /* ALINHAMENTO HORINZONTAL */
+            vertical-align: middle; /* Alinhamento vertical */
+        }
+
+        .numero {
+            text-align: right;
         }
             
     </style>
@@ -42,12 +49,13 @@
         <tr class="linha">
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr> <!--tERCEIRA LINHA -->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
+
         </tr> <!--QUARTA LINHA-->
         <td>A4</td>
         <td>B4</td>
